@@ -1,0 +1,59 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-color: #010d0c;
+
+  padding: 110px 50px;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #e6e6e6;
+
+  font-weight: 700;
+  font-size: 227px;
+  line-height: 150px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+
+  color: #e6e6e6;
+
+  font-family: "Palatino Linotype";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 13px;
+}
+
+.left_side,
+.right_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social {
+  :first-child {
+    img {
+      margin-right: 20px;
+    }
+  }
+}
+
+.right_side {
+  text-align: right;
+}
+
+.address,
+.work_day,
+.weekend {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
